@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="escanear_c_digo_de_barra">NUMÉRISER DES PRODUITS</string>
+    <string name="titulo_ticket">Sur cet écran, vous pouvez créer un ticket pour ajouter des produits à la base de données.&#10;&#10;Vous devez seulement remplir les champs demandés ci-dessous.</string>
+    <string name="producto_encontrado">Produit Trouvé</string>
+    <string name="mensaje">Entreprise : %1$s&#10;&#10;Nom du Produit : %2$s&#10;&#10;Sans Gluten : %3$s&#10;&#10;</string>
+    <string name="productosGenericosTitulo">Produits Généraux</string>
+    <string name="productosGenericos">Rappelez-vous qu\'il existe des produits génériques qui sont sans gluten mais ne portent pas le label Sans Gluten. Gardez en tête que tous les produits frais, comme la viande ou le poisson, ne contiennent jamais de gluten, tout comme les boissons gazeuses (Coca-Cola, Fanta, Pepsi, etc.), les huiles ou les sucres non transformés.&#10;&#10;Cependant, vérifiez toujours les étiquettes des produits pour vous assurer qu\'ils sont sans gluten.</string>
+    <string name="prouctoNoEncontradoMensaje">&#10;&#10;Le produit que vous avez scanné contient du GLUTEN ou n\'est pas référencé dans notre base de données. S\'il est sans gluten, veuillez créer un ticket avec les informations du produit.&#10;&#10;</string>
+    <string name="producoNoEnconrado">Produit Non Trouvé</string>
+    <string name="mododaltonico">Mode Daltonien</string>
+    <string name="idiomas">Langues</string>
+    <string name="toastMensajeErrorTicketIncompleto">Veuillez remplir tous les champs</string>
+    <string name="aceptar">Accepter</string>
+    <string name="nombre_del_producto">Nom du Produit</string>
+    <string name="nombre_de_la_empresa">Nom de l\'Entreprise</string>
+    <string name="identificador_del_producto">Identifiant du Produit</string>
+    <string name="mandar_ticket">Envoyer le Ticket</string>
+    <string name="salir">Sortir</string>
+    <string name="selecciona_una_opcion">Sélectionnez une option</string>
+    <string name="mensajeOk">Ce produit ne contient pas de gluten</string>
+    <string name="tituloDialgoDaltonico">Sélectionnez une option</string>
+    <string-array name="opciones_daltonico">
+        <item>Normal</item>
+        <item>Protanopie</item>
+        <item>Deutéranopie</item>
+        <item>Tritanopie</item>
+        <item>Achromatopsie</item>
+    </string-array>
+    <string name="tituloDialogProductoNoEncontrado">Produit introuvable</string>
+    <string name="mensajeProductoNoEncontrado">Voulez-vous créer un ticket ?</string>
+    <string name="crearTicket">Créer un ticket</string>
+    <string name="tituloNuevaVersion">Nouvelle version disponible</string>
+    <string name="mensajeNuevaVersion">Une nouvelle version de l\'application est disponible</string>
+    <string name="actualizar">Mettre à jour</string>
+    <string name="cancelar">Annuler</string>
+    <string name="mensajeScanner">Scannez un produit</string>
+    <string name="identificador">Identifiant</string>
+    <string name="tituloNuevaVersionBD" >Mise à jour de la base de données</string>
+    <string name="mensajeNuevaVersionBD" >La base de données a été mise à jour, de nouveaux produits ont été ajoutés ou retirés.</string>
+    <string name="email">E-Mail</string>
+</resources>

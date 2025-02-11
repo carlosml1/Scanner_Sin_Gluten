@@ -1,0 +1,83 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.carlosmartinlaguna.scanner'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.carlosmartinlaguna.scanner"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    viewBinding {
+        enable = true
+    }
+
+    // Add packaging options to exclude conflicting files
+    packagingOptions {
+        exclude 'META-INF/mimetypes.default'
+        exclude 'META-INF/mailcap.default'
+        excludes += ["META-INF/DEPENDENCIES"]
+    }
+
+
+}
+
+dependencies {
+    // Firebase and other dependencies remain unchanged
+    implementation platform(libs.firebase.bom)
+    implementation libs.firebase.analytics.ktx
+    implementation libs.firebase.firestore
+    implementation libs.firebase.firestore.ktx
+    implementation libs.firebase.storage
+    implementation libs.firebase.storage.ktx
+    implementation libs.firebase.auth
+    implementation(libs.zxing.android.embedded) { transitive = false }
+    implementation libs.core
+    implementation libs.picasso
+    implementation libs.glide
+    implementation libs.androidx.transition
+    implementation libs.billing
+    implementation libs.osmdroid.android
+    implementation libs.osmdroid.mapsforge
+    implementation libs.retrofit
+    implementation libs.converter.gson
+    implementation libs.logging.interceptor
+    implementation 'com.sendgrid:sendgrid-java:4.7.2'
+    implementation libs.play.services.auth
+    implementation libs.okhttp
+
+
+
+    implementation libs.androidx.core.ktx
+    implementation libs.androidx.appcompat
+    implementation libs.material
+    implementation libs.androidx.activity
+    implementation libs.androidx.constraintlayout
+    testImplementation libs.junit
+    androidTestImplementation libs.androidx.junit
+    androidTestImplementation libs.androidx.espresso.core
+}
+

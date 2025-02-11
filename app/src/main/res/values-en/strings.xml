@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="escanear_c_digo_de_barra">SCAN PRODUCTS</string>
+    <string name="titulo_ticket">On this screen, you can create a ticket to add products to the database.\n\n You only need to fill in the fields requested below.</string>
+    <string name="producto_encontrado">Product Found</string>
+    <string name="mensaje">Company: %1$s\n\nProduct Name: %2$s\n\nGluten-Free: %3$s\n\n</string>
+    <string name="productosGenericosTitulo">Generic Products</string>
+    <string name="productosGenericos">Remember that there are generic products that are gluten-free but do not carry a Gluten-Free label. Keep in mind that all fresh products like meat or fish never contain gluten, and items like soft drinks (Coca-Cola, Fanta, Pepsi, etc.), oils, or unprocessed sugars are gluten-free.\n\nHowever, always check product labels to ensure they are gluten-free.</string>
+    <string name="prouctoNoEncontradoMensaje">\n\nThe product you scanned contains GLUTEN or is not reflected in our database. If it is gluten-free, please create a ticket with the product information.\n\n</string>
+    <string name="producoNoEnconrado">Product Not Found</string>
+    <string name="mododaltonico">Colorblind Mode</string>
+    <string name="idiomas">Languages</string>
+    <string name="toastMensajeErrorTicketIncompleto">Please fill in all fields</string>
+    <string name="aceptar">Accept</string>
+    <string name="nombre_del_producto">Product Name</string>
+    <string name="nombre_de_la_empresa">Company Name</string>
+    <string name="identificador_del_producto">Product Identifier</string>
+    <string name="mandar_ticket">Send Ticket</string>
+    <string name="salir">Exit</string>
+    <string name="selecciona_una_opcion">Select an option</string>
+    <string name="mensajeOk">This product does not contain gluten</string>
+    <string name="tituloDialgoDaltonico">Select an option</string>
+    <string-array name="opciones_daltonico">
+        <item>Normal</item>
+        <item>Protanopia</item>
+        <item>Deuteranopia</item>
+        <item>Tritanopia</item>
+        <item>Achromatopsia</item>
+    </string-array>
+    <string name="tituloDialogProductoNoEncontrado">Product not found</string>
+    <string name="mensajeProductoNoEncontrado">Do you want to create a ticket?</string>
+    <string name="crearTicket">Create Ticket</string>
+    <string name="tituloNuevaVersion">New version available</string>
+    <string name="mensajeNuevaVersion">A new version of the app is available</string>
+    <string name="actualizar">Update</string>
+    <string name="cancelar">Cancel</string>
+    <string name="mensajeScanner">Scan a product</string>
+    <string name="identificador" >Identifier</string>
+    <string name="tituloNuevaVersionBD" >Database Update</string>
+    <string name="mensajeNuevaVersionBD">The database has been updated, new products have been added or removed.</string>
+    <string name="email">Email</string>
+</resources>

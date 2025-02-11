@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "499586918138",
+    "project_id": "productosceliacos-25779",
+    "storage_bucket": "productosceliacos-25779.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499586918138:android:929d8faed4ad4ba0144b43",
+        "android_client_info": {
+          "package_name": "com.carlosmartin.scanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRs6uYk6GTisqbuhyaXAANxqIBYUUkDk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499586918138:android:7037ce7688151fa2144b43",
+        "android_client_info": {
+          "package_name": "com.carlosmartinlaguna.scanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRs6uYk6GTisqbuhyaXAANxqIBYUUkDk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499586918138:android:738e8a4e2b048627144b43",
+        "android_client_info": {
+          "package_name": "com.example.scanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRs6uYk6GTisqbuhyaXAANxqIBYUUkDk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

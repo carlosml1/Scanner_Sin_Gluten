@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="escanear_c_digo_de_barra">PRODUKTE SCANNEN</string>
+    <string name="titulo_ticket">Auf diesem Bildschirm können Sie ein Ticket erstellen, um Produkte zur Datenbank hinzuzufügen.\n\n Sie müssen nur die unten angeforderten Felder ausfüllen.</string>
+    <string name="producto_encontrado">Produkt Gefunden</string>
+    <string name="mensaje">Firma: %1$s\n\nProduktname: %2$s\n\nGlutenfrei: %3$s\n\n</string>
+    <string name="productosGenericosTitulo">Generische Produkte</string>
+    <string name="productosGenericos">Denken Sie daran, dass es generische Produkte gibt, die glutenfrei sind, aber kein Glutenfrei-Siegel tragen. Beachten Sie, dass alle frischen Produkte wie Fleisch oder Fisch nie Gluten enthalten, ebenso wie Getränke (Coca-Cola, Fanta, Pepsi, usw.), Öle oder unverarbeitete Zucker glutenfrei sind.\n\nÜberprüfen Sie jedoch immer die Etiketten der Produkte, um sicherzustellen, dass sie glutenfrei sind.</string>
+    <string name="prouctoNoEncontradoMensaje">\n\nDas Produkt, das Sie gescannt haben, enthält GLUTEN oder ist nicht in unserer Datenbank verzeichnet. Wenn es glutenfrei ist, erstellen Sie bitte ein Ticket mit den Produktinformationen.\n\n</string>
+    <string name="producoNoEnconrado">Produkt Nicht Gefunden</string>
+    <string name="mododaltonico">Modus für Farbsehschwäche</string>
+    <string name="idiomas">Sprachen</string>
+    <string name="toastMensajeErrorTicketIncompleto">Bitte füllen Sie alle Felder aus</string>
+    <string name="aceptar">Akzeptieren</string>
+    <string name="nombre_del_producto">Produktname</string>
+    <string name="nombre_de_la_empresa">Firmenname</string>
+    <string name="identificador_del_producto">Produktkennung</string>
+    <string name="mandar_ticket">Ticket Senden</string>
+    <string name="salir">Beenden</string>
+    <string name="selecciona_una_opcion">Wählen Sie eine Option</string>
+    <string name="mensajeOk">Dieses Produkt enthält kein Gluten</string>
+    <string name="tituloDialgoDaltonico">Wählen Sie eine Option</string>
+    <string-array name="opciones_daltonico">
+        <item>Normal</item>
+        <item>Protanopie</item>
+        <item>Deuteranopie</item>
+        <item>Tritanopie</item>
+        <item>Achromatopsie</item>
+    </string-array>
+    <string name="tituloDialogProductoNoEncontrado">Produkt nicht gefunden</string>
+    <string name="mensajeProductoNoEncontrado">Möchten Sie ein Ticket erstellen?</string>
+    <string name="crearTicket">Ticket erstellen</string>
+    <string name="tituloNuevaVersion">Neue Version verfügbar</string>
+    <string name="mensajeNuevaVersion">Eine neue Version der App ist verfügbar</string>
+    <string name="actualizar">Aktualisieren</string>
+    <string name="cancelar">Abbrechen</string>
+    <string name="mensajeScanner">Scannen Sie ein Produkt</string>
+    <string name="identificador" >Kennung</string>
+    <string name="tituloNuevaVersionBD" >Datenbankaktualisierung</string>
+    <string name="mensajeNuevaVersionBD" >Die Datenbank wurde aktualisiert, neue Produkte wurden hinzugefügt oder entfernt.</string>
+    <string name="email">E-Mail</string>
+</resources>
